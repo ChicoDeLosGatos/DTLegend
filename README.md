@@ -33,8 +33,7 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 `var ajax_people_query =  {`<br/>
 &emsp;`url: "./get_people.php",`<br/>
 &emsp;`type: "GET",`<br/>
-&emsp;`data: {/*params*/},`<br/>
-&emsp;`dataSrc: /*data src identificator*/`<br/>
+&emsp;`data: {/*params*/}`<br/>
 `};`<br/>
 `dataTable = $('#sample_people_table').DataTable({`<br/>
 &emsp;`ajax: ajax_people_query,`<br/>
