@@ -66,7 +66,7 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 &emsp;&emsp;`['Men', '#FADE80'], //this will be the label 0, called lbl0 and referenced with lb0`<br/> 
 &emsp;&emsp;`['Women', '#C48356'], //lbl1 (lb1)`<br/>
 &emsp;&emsp;`['Teens', '#98CEE5'] //lbl2 (lb2)`<br/>
-&emsp;`] // You can reference max 8 labels`,<br/>
+&emsp;`] // You can reference max 10 labels, from 0 to 9`,<br/>
 &emsp;`toggleFilter`,<br/>
 &emsp;`function(selection){`<br/>
 &emsp;&emsp;`$.fn.dataTable.ext.search.push(`<br/>
