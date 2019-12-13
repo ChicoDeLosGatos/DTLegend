@@ -1,10 +1,21 @@
 # DTLegend.js
 A customizable legend in Javascript for DataTables (https://datatables.net/)
 
-<h2>Basic Usage:</h2>
+# Basic Usage
+## HTML:
+`<table id='`*[id_table]*`'><thead>[headers]</thead><tbody></tbody><tfoot id='`*[id_table]***_footer**`'><tfoot></table>`<br/>
 
-<h3>HTML:</h3>
+## JS:
+`var legend;`<br/>
+`legend = new DTLegend('[table_name]', [fields_to_filter], [caller_function], [filter], (optional)[special_functions]);`<br/>
+<br/>
 
+`function [caller_function](lbl){`<br/>
+&emsp;`legend.filter(lbl);`<br/>
+`}`
+
+# Sample code
+## HTML:
 `<body>`<br/>
 `...`<br/>
 `<table id="`**sample_people_table**`" class="table">`<br/>
@@ -24,10 +35,8 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 `<script type='text/javascript' src='./js/dtlegendjs.min.js'></script>`<br/>
 `</body>`
 
-
-<h3>JS</h3>
-
-<h4>Step 1: Set up the DataTable</h4>
+## JS:
+### **Step 1:** Set up the DataTable</h4>
 
 `var dataTable;`<br/>
 `var ajax_people_query =  {`<br/>
@@ -50,8 +59,7 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 &emsp;`}`<br/>
 `});`<br/>
 
-<h4>Step 2: Set the DTLegend</h4>
-
+### **Step 2:** Set the DTLegend
 `var legend;`<br/>
 `legend = new DTLegend(`<br/>
 &emsp;`'sample_people_table -v', [ //set the verbose attribute (-v) will show you in console dtl messages`<br/>
@@ -79,20 +87,18 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 &emsp;`legend.filter(lbl);`<br/>
 `}`
 
-<h3>Sample screenshots:</h3>
-<h4>Example 1: All data</h4>
-
+# Sample screenshots:
+## Example 1: All data
 ![Example 1. All data](https://imgur.com/WXQDUa3.png)
-
-<br/><h4>Example 2: Without teens</h4>
-
+<br/>
+## Example 2: Without teens
 ![Example 2. Without teens](https://imgur.com/gHPxf2n.png)
-
-<br/><h4>Example 3: Without men</h4>
-
+<br/>
+## Example 3: Without men
 ![Example 3. Without men](https://imgur.com/VFxr9YF.png)
-
-<br/><h4>Example 4: Without people</h4>
-
+<br/>
+## Example 4: Without people
 ![Example 4. Without people](https://imgur.com/We5i4Nc.png)
+
+*Current version: 0.1.*
 
