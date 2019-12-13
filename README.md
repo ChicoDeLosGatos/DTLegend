@@ -30,6 +30,12 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 <h4>Step 1: Set up the DataTable</h4>
 
 `var dataTable;`<br/>
+`var ajax_people_query =  {`<br/>
+&emsp;`url: "./get_people.php",`<br/>
+&emsp;`type: "GET",`<br/>
+&emsp;`data: {/*params*/},`<br/>
+&emsp;`dataSrc: /*data src identificator*/`<br/>
+`};`<br/>
 `dataTable = $('#sample_people_table').DataTable({`<br/>
 &emsp;`ajax: ajax_people_query,`<br/>
 &emsp;`columns: [`<br/>
@@ -74,4 +80,20 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 &emsp;`legend.filter(lbl);`<br/>
 `}`
 
+<h3>Sample screenshots:</h3>
+<h4>Example 1: All data</h4>
+
+![Example 1. All data](https://imgur.com/WXQDUa3.png)
+
+<br/><h4>Example 2: Without teens</h4>
+
+![Example 2. Without teens](https://imgur.com/gHPxf2n.png)
+
+<br/><h4>Example 3: Without men</h4>
+
+![Example 3. Without men](https://imgur.com/VFxr9YF.png)
+
+<br/><h4>Example 4: Without people</h4>
+
+![Example 4. Without people](https://imgur.com/We5i4Nc.png)
 
