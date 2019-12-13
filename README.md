@@ -18,7 +18,7 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 ## HTML:
 `<body>`<br/>
 `...`<br/>
-`<table id="`**sample_people_table**`" class="table">`<br/>
+`<table id='sample_people_table' class="table">`<br/>
 &emsp;`<thead>`<br/>
 &emsp;&emsp;`<tr>`<br/>
 &emsp; &emsp; &emsp;`<th>Id</th>`<br/>
@@ -28,7 +28,7 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 &emsp;&emsp;`</tr>`<br/>
 &emsp;`</thead>`<br/>
 &emsp;`<tbody></tbody>`<br/>
-&emsp;`<tfoot id="`**sample_people_table_footer**`"></tfoot>`<br/>
+&emsp;`<tfoot id='sample_people_table_footer'></tfoot>`<br/>
 `</table>`<br/>
 `...`<br/>
 `<script type='text/javascript' charset='utf8' src='https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js'></script>`<br/>
