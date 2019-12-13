@@ -49,7 +49,7 @@ A customizable legend in Javascript for DataTables (https://datatables.net/)
 
 `var legend;`<br/>
 `legend = new DTLegend(`<br/>
-&emsp;`sample_people_table', [`<br/>
+&emsp;`'sample_people_table -v', [ //set the verbose attribute (-v) will show you in console dtl messages`<br/>
 &emsp;&emsp;`['Men', '#FADE80'], //this will be the label 0, called lbl0 and referenced with lb0`<br/> 
 &emsp;&emsp;`['Women', '#C48356'], //lbl1 (lb1)`<br/>
 &emsp;&emsp;`['Teens', '#98CEE5'] //lbl2 (lb2)`<br/>
