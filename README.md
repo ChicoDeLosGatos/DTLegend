@@ -33,7 +33,7 @@ You can download the updated code from http://cdn.orxatasoftware.com/js/dtlegend
 `</table>`<br/>
 `...`<br/>
 `<script type='text/javascript' charset='utf8' src='https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js'></script>`<br/>
-`<script type='text/javascript' src='./js/dtlegendjs.min.js'></script>`<br/>
+`<script type='text/javascript' src='./js/dtlegend.v0.1.min.js'></script>`<br/>
 `</body>`
 
 ## JS:
