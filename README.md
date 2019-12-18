@@ -1,6 +1,6 @@
 # DTLegend.js
 A customizable legend in Javascript for DataTables (https://datatables.net/)<br/>
-You can download the updated code from ![here](http://cdn.orxatasoftware.com/js/dtlegend.v0.1.zip)
+You can download the updated code from http://cdn.orxatasoftware.com/js/dtlegend.v0.1.zip
 
 # Basic Usage
 ## HTML:
